@@ -1,5 +1,4 @@
-<body>
-    <h1>This is index.jsp.</h1>
-</body>
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<jsp:forward page="/sample/openSampleList.do"/>
 
 
