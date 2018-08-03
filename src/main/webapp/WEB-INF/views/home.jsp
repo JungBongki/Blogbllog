@@ -4,6 +4,7 @@
 <head>
 	<title>Home</title>
 </head>
+<script src="webjars/jquery/3.3.1-1/jquery.js"></script>
 <body>
 <h1>
 	Hello world!  
@@ -11,4 +12,10 @@
 
 <P>  The time on the server is ${serverTime}. </P>
 </body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		alert('hello!');
+	})
+</script>
+
 </html>
