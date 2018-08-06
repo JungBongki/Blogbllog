@@ -9,9 +9,9 @@ import org.springframework.web.servlet.ModelAndView;
 public class MainController {
 	Logger log = Logger.getLogger(this.getClass());
 
-	@RequestMapping(value = "/sample/openSampleList.do")
+	@RequestMapping(value = "/maincont/main.do")
 	public ModelAndView home() {
-		ModelAndView mv = new ModelAndView("home");
+		ModelAndView mv = new ModelAndView("main/home");
         log.debug("인터셉터 테스트");
          
         return mv;
