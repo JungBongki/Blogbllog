@@ -3,22 +3,20 @@
 <%@ page session="false" %>
 <html>
 <head>
-	<link href="/css/banner.css" type="text/css" rel="stylesheet" />
-	<script src="webjars/jquery/3.3.1-1/jquery.js"></script>
 	<title>Home</title>
+	<script src="webjars/jquery/3.3.1-1/jquery.js"></script>
+	<jsp:include page="top.jsp" flush="true"/>
+
 </head>
 <body>
-
-	<ul class="navbar">
-	  <li><a href="#">홈</a></li>
-	  <li><a href="#">1번 메뉴</a></li>
-	  <li><a href="#">2번 메뉴</a></li> 
-	</ul>
+	<div id="dkContent" class="cont_skin" role="main">
+			
+	</div>
+	
 
 </body>
 <script type="text/javascript">
 	$(document).ready(function(){
-		alert('hello!');
 	})
 </script>
 
