@@ -11,7 +11,7 @@ public class MainController {
 
 	@RequestMapping(value = "/main/gohome.do")
 	public ModelAndView home() {
-		ModelAndView mv = new ModelAndView("jsp/home");
+		ModelAndView mv = new ModelAndView("main/home");
          
         return mv;
 	}
